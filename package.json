@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://joepherdegz.github.io/Team7-TeamProject",
+  "homepage": "https://joepherdegz.github.io/TeamProject-Team7",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Team7-TeamProject/"
+    "build": "parcel build src/*.html --public-url /TeamProject-Team7/"
   },
   "repository": {
     "type": "git",
