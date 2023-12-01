@@ -1,7 +1,7 @@
-.adv-items {
+.adv-section {
     display: flex;
     justify-content: flex-start;
-    
+    // grid-template-columns: repeat (auto-fit, minmax(200px, 1fr));
 }
 
 .adv-list {
@@ -22,7 +22,7 @@
     width: 288px;
     height: 82px;
 }
-.adv-one {
+.visually-hidden {
     color: #D41443;
     // text-align: right;
     font-family: Titan One;
@@ -35,7 +35,7 @@
     word-wrap: break-word;
     margin-bottom: 10px;
 }
-.par1 .par2 .par3 {
+.par1, .par2, .par3 {
     color: #000;
     font-family: DM Sans;
     font-size: 16px;
