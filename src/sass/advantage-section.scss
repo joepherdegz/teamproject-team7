@@ -1,10 +1,23 @@
 .adv-items {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+     
 }
 
 .adv-list {
     display: block;
     text-align: left;
     align-items: flex-start;
+}
+.par1 {
+    width: 288px;
+    height: 79px;
+}
+.par2 {
+    width: 317px;
+    height: 58px;
+}
+.par3 {
+    width: 288px;
+    height: 82px;
 }
