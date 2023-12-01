@@ -1,13 +1,14 @@
 .adv-items {
     display: flex;
     justify-content: flex-start;
-     
+    
 }
 
 .adv-list {
     display: block;
-    text-align: left;
+    // text-align: left;
     align-items: flex-start;
+    margin: 0 10px;
 }
 .par1 {
     width: 288px;
@@ -27,8 +28,21 @@
     font-family: Titan One;
     font-size: 58px;
     font-weight: 400;
-    font-style: normal;
+    // font-style: normal;
     line-height: normal;
     letter-spacing: 2.32px;
     text-transform: uppercase;
+    word-wrap: break-word;
+    margin-bottom: 10px;
 }
+.par1 .par2 .par3 {
+    color: #000;
+    
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 176%;
+        /* 28.16px */
+        letter-spacing: 0.32px;
+} 
