@@ -31,6 +31,11 @@
     gap: 30px;
 }
 
+.socials-link:hover + .icon:hover,
+.socials-link:focus + .icon:focus {
+    fill: #D41443;
+}
+
 .footer-top {
     display: flex;
     align-items: last baseline;
@@ -49,6 +54,11 @@
     font-weight: 700;
     line-height: 186%;
     letter-spacing: 0.32px;
+}
+
+.footer-contact-link {
+    color: #D41443;
+    text-decoration: none;
 }
 
 .footer-copyright {
