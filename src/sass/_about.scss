@@ -13,46 +13,119 @@
   padding: 0;
 }
 
-.container {
-  padding: 15px;
-  margin: 0;
-}
-
 .about-trad {
   color: var(--palered);
   font-family: titan one;
-  font-size: 26px;
+  font-size: 30px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
+  margin: 60px 0 0;
+  text-align: center;
+  @media screen and (max-width: 1280px) {
+    font-size: 26px;
+    line-height: normal;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
 }
 
 .about-header {
   color: var(--strongred);
   font-family: titan one;
-  font-size: 48px;
-  letter-spacing: 1.92px;
+  font-size: 58px;
+  letter-spacing: 3.48px;
   text-transform: uppercase;
-  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  margin-top: 0;
+  text-align: center;
+  flex-shrink: 0;
+  br {
+    display: none;
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 48px;
+    line-height: normal;
+    letter-spacing: 1.92px;
+  }
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 1.36px;
+    text-align: center;
+    flex-shrink: 0;
+    br {
+      display: inline;
+    }
+  }
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cow-milk {
+  width: 501px;
+  height: 501px;
+  flex-shrink: 0;
+  @media screen and (max-width: 1280px) {
+    width: 336px;
+    height: 335px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 280px;
+    height: 279px;
+  }
 }
 
 .about-par-list:first-child {
+  width: 400px;
   color: var(--black);
   font-family: dm sans;
   font-size: 16px;
   line-height: 28.16px;
   letter-spacing: 0.64px;
+  flex-shrink: 0;
+  margin-bottom: 32px;
+  @media screen and (max-width: 1280px) {
+    width: 334px;
+    font-size: 14px;
+    line-height: 24.36px;
+    letter-spacing: 0.56px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 220px;
+    font-size: 12px;
+    line-height: 162%; /* 19.44px */
+    letter-spacing: 0.48px;
+  }
 }
 
 .about-par-list:nth-child(2n) {
+  width: 401px;
   color: var(--venus);
   font-family: DM Sans;
   font-size: 14px;
   line-height: 27.16px;
   letter-spacing: 0.56px;
-}
-
-.about-par-list {
-  width: 400px;
-  gap: 32px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 1280px) {
+    width: 334px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 220px;
+    font-size: 12px;
+    line-height: 162%; /* 19.44px */
+    letter-spacing: 0.48px;
+  }
 }
 
 .about-btn {
@@ -70,37 +143,75 @@
   justify-content: space-evenly;
   align-items: center;
   border: none;
-}
-
-.about {
-  text-align: center;
-}
-
-.about-trad {
-  margin-bottom: 16px;
-}
-
-.about-header {
-  margin-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
 }
 
 .about-desc {
-  background-image: url(/src/images/aboutbg.png);
+  background-image: url(/src/images/about/aboutbg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   display: flex;
   justify-content: center;
   gap: 99px;
   align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  @media screen and (max-width: 1280px) {
+    gap: 32px;
+    background: none;
+  }
+  @media (max-width: 767px) {
+    background-image: url(/src/images/about/aboutbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 65%;
+    display: block;
+    padding-left: 16px;
+  }
 }
 
 .about-desc-par {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  @media screen and (max-width: 767px) {
+    text-align: left;
+    display: block;
+    margin-left: 0;
+  }
 }
+
+.about-section {
+  height: 750px;
+  max-height: 100%;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 1280px) {
+    height: 650px;
+    max-height: 100%;
+  }
+  @media screen and (max-width: 767px) {
+    height: 850px;
+    max-height: 100%;
+  }
+}
+
+.container {
+  height: 120vh;
+  max-height: 120vh;
+  width: 100%;
+  margin: 0 0 40px;
+  @media screen and (max-width: 1280px) {
+    height: 130vh;
+    max-height: 130vh;
+  }
+  @media screen and (max-width: 767px) {
+    height: 260vh;
+    max-height: 260vh;
+  }
+}
+
+//MODAL//
 
 .about-modal {
   background-color: var(--softred);
@@ -116,6 +227,7 @@
 .about-form {
   color: white;
   margin-top: 24px;
+  overflow: auto;
 }
 
 .about-btn {
@@ -184,13 +296,13 @@
 //END OF ABOUT STYLE//
 
 //ADVANTAGE STYLE//
-
 .adv-section {
   display: flex;
   flex-direction: column;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
+    gap: 19px;
   }
 }
 .adv-list {
