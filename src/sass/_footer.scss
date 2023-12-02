@@ -1,5 +1,6 @@
 * {
     background: #FFF5F6;
+    flex-shrink: 0;
 }
 .footer-texts {
     margin-left: 16px;
@@ -11,6 +12,7 @@
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.2px;
+    margin-bottom: 0;
 }
 
 .footer-text2 {
@@ -19,6 +21,7 @@
     font-size: 58px;
     font-weight: 400;
     letter-spacing: 3.48px;
+    margin-top: 10px;
 }
 
 .footer-socials {
@@ -39,6 +42,15 @@
     margin-right:16px;
 }
 
+.footer-contact-text {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 186%;
+    letter-spacing: 0.32px;
+}
+
 .footer-copyright {
     text-align: center;
     color: #907E82;
@@ -49,7 +61,3 @@
     letter-spacing: 0.28px;
 }
 
-.footer-copyright svg {
-    stroke: #E1E1E1;
-    stroke-width: 1px;
-}
