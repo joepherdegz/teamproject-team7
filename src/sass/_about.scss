@@ -117,7 +117,7 @@
   line-height: 27.16px;
   letter-spacing: 0.56px;
   margin-bottom: 40px;
-  @media screen and (max-width: 1157px) {
+  @media screen and (max-width: 1280px) {
     width: 334px;
   }
   @media screen and (max-width: 767px) {
@@ -159,7 +159,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
-  @media screen and (max-width: 1157px) {
+  @media screen and (max-width: 1280px) {
     gap: 32px;
     background: none;
   }
@@ -204,16 +204,16 @@
   flex-shrink: 0;
   // height: 120vh;
   // max-height: 120vh;
-  width: 100%;
-  margin: 0 0 40px;
-  @media screen and (max-width: 1280px) {
-    height: 130vh;
-    max-height: 130vh;
-  }
-  @media screen and (max-width: 767px) {
-    height: 260vh;
-    max-height: 260vh;
-  }
+  // width: 100%;
+  // margin: 0 0 40px;
+  // @media screen and (max-width: 1280px) {
+  //   height: 130vh;
+  //   max-height: 130vh;
+  // }
+  // @media screen and (max-width: 767px) {
+  //   height: 260vh;
+  //   max-height: 260vh;
+  // }
 }
 
 //MODAL//
@@ -338,7 +338,7 @@
     width: 165px;
     height: 113px;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1200px) {
     width: 288px;
     height: 79px;
   }
@@ -351,7 +351,7 @@
     width: 162px;
     height: 94px;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1200px) {
     width: 317px;
     height: 58px;
   }
@@ -364,7 +364,7 @@
     width: 195px;
     height: 94px;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1200px) {
     width: 288px;
     height: 82px;
   }
@@ -382,7 +382,7 @@
   @media screen and (min-width: 768px) {
     font-size: 48px;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1200px) {
     font-size: 58px;
   }
 }
@@ -401,7 +401,7 @@
     line-height: 174%;
     letter-spacing: 0.28px;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1200px) {
     font-size: 16px;
     line-height: 176%;
     letter-spacing: 0.32px;
