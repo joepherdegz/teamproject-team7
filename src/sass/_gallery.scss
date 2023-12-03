@@ -1,7 +1,6 @@
 
 .gallery {
     width: 1013px;
-    height: 430px;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -56,4 +55,29 @@
     padding-bottom: 68px;
     width: 140px;
 }
+
+@media only screen and (min-width: 769px) {
+    .image-group {
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery {
+        visibility: hidden;
+    }
+
+    .image-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 768px;
+    }
+
+
+}
+    
+
+
 
