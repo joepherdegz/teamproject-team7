@@ -117,7 +117,7 @@
   line-height: 27.16px;
   letter-spacing: 0.56px;
   margin-bottom: 40px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1157px) {
     width: 334px;
   }
   @media screen and (max-width: 767px) {
@@ -159,7 +159,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1157px) {
     gap: 32px;
     background: none;
   }
@@ -182,7 +182,8 @@
 }
 
 .about-section {
-  height: 750px;
+  
+  // height: 750px;
   max-height: 100%;
   margin-bottom: 40px;
 
@@ -197,8 +198,12 @@
 }
 
 .container-about {
-  height: 120vh;
-  max-height: 120vh;
+  background-color: #fff5f6;
+  width: 320px;
+  height: 1564px;
+  flex-shrink: 0;
+  // height: 120vh;
+  // max-height: 120vh;
   width: 100%;
   margin: 0 0 40px;
   @media screen and (max-width: 1280px) {
