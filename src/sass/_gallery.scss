@@ -24,3 +24,61 @@
     background: lightgray -134.438px -141.738px / 927.536% 309.352% no-repeat;
 }
  
+
+.first-pic {
+    padding-top: 0;
+}
+
+.pic4-upper-pic {
+    vertical-align: bottom;
+    width: 140px;
+    padding-bottom: 32px;
+}
+
+.pic6-lower-pic {
+    padding-bottom: 116px;
+}
+
+.last-pic {
+    padding-top: 0px;
+}
+
+.pic9-upper-pic {
+    width: 141px;
+    vertical-align: bottom;
+    padding-bottom: 14px;
+}
+
+.pic1-upper-pic {
+    width: 287px;
+    padding-top: 82px;
+}
+
+.pic10-upper-pic {
+    vertical-align: bottom;
+    padding-bottom: 68px;
+    width: 140px;
+}
+
+@media only screen and (min-width: 769px) {
+    .image-group {
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery {
+        visibility: hidden;
+    }
+
+    .image-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 768px;
+    }
+
+
+}
+
