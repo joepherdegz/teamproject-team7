@@ -12,9 +12,7 @@
   margin: 0;
   padding: 0;
   background-color: #fff5f6;
-    // width: 980px;
-    // height: 1564px;
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .about-trad {
@@ -25,7 +23,7 @@
   text-transform: uppercase;
   margin: 60px 0 0;
   text-align: center;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     font-size: 26px;
     line-height: normal;
   }
@@ -48,7 +46,7 @@
   br {
     display: none;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     font-size: 48px;
     line-height: normal;
     letter-spacing: 1.92px;
@@ -79,7 +77,7 @@
   width: 501px;
   height: 501px;
   flex-shrink: 0;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     width: 336px;
     height: 335px;
   }
@@ -99,7 +97,7 @@
   letter-spacing: 0.64px;
   flex-shrink: 0;
   margin-bottom: 32px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     width: 334px;
     font-size: 14px;
     line-height: 24.36px;
@@ -121,7 +119,7 @@
   line-height: 27.16px;
   letter-spacing: 0.56px;
   margin-bottom: 40px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     width: 334px;
   }
   @media screen and (max-width: 767px) {
@@ -163,7 +161,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     gap: 32px;
     background: none;
   }
@@ -191,13 +189,13 @@
   max-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
     height: 1092px;
     max-height: 100%;
   }
   @media screen and (max-width: 767px) {
     height: 1564px;
-    max-height: 100%;
+     
   }
 }
 
