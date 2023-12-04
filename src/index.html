@@ -1,17 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Project-Team 7</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/gallery.html"></include>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 7 Home Page</title>
 
-  </body>
+    <!-- FONTS -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Titan+One&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <!--PRODUCT SECTION-->
+    <section class="product">
+        <h3 class="product-header">100% NATURAL</h3>
+        <h2 class="product-header2">PRODUCTS</h2>
+        <ul class="product-list">
+            <li class="product1"> 
+                 <img src="images/home-pic1.jpg" alt="ICE CREAM"/>
+                 <div class="product1-bg">
+                    <h3 class="product-name">ICE CREAM</h3>
+                    <p class="product-text">Indulge in our rich and creamy ice cream, handcrafted with all-natural ingredients and available in a variety of flavors.</p>
+                 </div>
+            
+                 <div class="product-arrow-icon">
+                    <svg width="38.209px" height="40px">
+                        <use href="#"></use>
+                    </svg>
+                 </div>
+            </li>
+            <li class="product2"> <img src="images/home-pic2.jpg" alt="ICE COFFEE"/>
+                <div class="product2-bg">
+                    <h3 class="product-name">ICE COFFEE</h3>
+                    <p class="product-text">Refresh and energize with our perfectly brewed iced coffee, made with high-quality beans and served over ice.</p>  
+                </div>
+                
+                <div class="product-arrow-icon">
+                   <svg width="38.209px" height="40px">
+                       <use href="#"></use>
+                   </svg>
+                </div>
+           </li>
+           <li class="product3"> <img src="images/home-pic3.jpg" alt="MILKSHAKES"/>
+                <div class="product3-bg">
+                    <h3 class="product-name">MILKSHAKES</h3>
+                    <p class="product-text">Satisfy your sweet tooth with our thick, made with premium ice cream, topped with whipped cream and your favorite toppings.</p> 
+                </div>
+                <div class="product-arrow-icon">
+                <svg width="38.209px" height="40px">
+                    <use href="#"></use>
+                </svg>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+    
+</body>
 </html>

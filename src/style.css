@@ -1,0 +1,116 @@
+:root {
+    --headerpink:#FFA5BA;
+    --headerdarkpink: #D41443;
+    --bgpink: #FFB8CA;
+    --bgbrown: #F0D1A5;
+    --bggreen: #C2E297;
+    --white: #FFF;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Titan One', sans-serif;
+}
+
+.product-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+/*PRODUCTS STYLING*/
+
+
+.product-header {
+    color: var(--headerpink);
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-left: 460.1;
+    margin-right: 459.29;
+    margin-bottom: 0;
+    
+}
+
+.product-header2 {
+    color: var(--headerdarkpink);
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.product img {
+    width: 368px;
+    height: 394px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.product-name {
+    color: var(--white);
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+    font-weight: 400;
+    width: 368px;
+    height: 34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.product-text {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 176%; /* 28.16px */
+    letter-spacing: 0.64px;
+    color: var(--white);
+    width: 304px;
+    height: 134px;
+    flex-shrink: 0;
+    margin: auto;
+    
+}
+
+.product1-bg {
+    background-color: var(--bgpink);
+    border-radius: 24px;
+    width: 368px;
+    height: 535px;
+    flex-shrink: 0;
+}
+
+.product2-bg {
+    background-color: var(--bgbrown);
+    border-radius: 24px;
+    width: 368px;
+    height: 535px;
+    flex-shrink: 0;
+}
+
+.product3-bg {
+    background-color: var(--bggreen);
+    border-radius: 24px;
+    width: 368px;
+    height: 535px;
+    flex-shrink: 0;
+}
