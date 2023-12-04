@@ -15,7 +15,7 @@
     flex-shrink: 0;
     // height: 750px;
     max-height: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 0;
   
     @media screen and (max-width: 1200px) {
       height: 1092px;
@@ -170,12 +170,12 @@
   background-position: center;
   display: flex;
   justify-content: center;
-  gap: 99px;
+  gap: 199px;
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
   @media screen and (max-width: 1200px) {
-    gap: 32px;
+    gap: 40px;
     background: none;
   }
   @media screen and (max-width: 767px) {
@@ -289,8 +289,12 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
-    gap: 19px;
+    gap: 40px;
   }
+    @media screen and (min-width: 1200px) {
+      padding: 0 20px;
+      gap: 80px;
+    }
 }
 .adv-list {
   display: block;
@@ -360,7 +364,7 @@
   letter-spacing: 2.32px;
   text-transform: uppercase;
   word-wrap: break-word;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   @media screen and (min-width: 768px) {
     font-size: 48px;
   }
@@ -378,6 +382,7 @@
   line-height: 170%;
   /* 28.16px */
   letter-spacing: 0.24px;
+  margin-bottom: 0;
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 174%;
