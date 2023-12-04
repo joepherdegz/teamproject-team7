@@ -14,9 +14,13 @@
            display: block;
            position: relative;
            top: -25px;
-           padding-left: 120px;
+        //    padding-left: 120px;
         }
          
+    }
+    .galry {
+        display: flex;
+        justify-content: center;
     }
 
 // .column {
