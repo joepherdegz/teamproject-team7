@@ -7,14 +7,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-     
     background-image: -webkit-linear-gradient(90deg, rgba(250, 250, 250, 1) 70%, rgba(255, 244, 245, 1) 20%);
     display: none;
     @media screen and (min-width: 1200px) {
            display: block;
            position: relative;
            top: -25px;
-        //    padding-left: 120px;
         }
          
     }
@@ -42,7 +40,7 @@
 
 .first-pic {
     padding-top: 0;
-    // padding-left: 20px;
+   
 }
 
 .pic4-upper-pic {
@@ -78,9 +76,7 @@
 .image-group {
     width: 100%;
     height: 100%;
-    // object-fit: cover;
     padding: 0 2px;
-    // margin-bottom: 0;
     @media screen and (min-width: 1200px) {
         display: none;
     }
