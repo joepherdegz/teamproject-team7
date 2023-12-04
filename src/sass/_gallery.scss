@@ -1,9 +1,9 @@
 
 .gallery {
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -13,7 +13,7 @@
             font-size: 48px;
         }
     
-        @media screen and (min-width: 1158px) {
+        @media screen and (min-width: 1200px) {
             font-size: 58px;
         }
     }
