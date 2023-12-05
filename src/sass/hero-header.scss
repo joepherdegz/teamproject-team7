@@ -26,7 +26,14 @@
         padding: 37px 0 0 56px;
     }
  }
-.navi {
+ a {
+    text-decoration: none;
+ }
+.nav-items {
     font-style: normal;
-    display: flex;
+    display: none;
+    list-style: none;
+}
+.menu-icon {
+    fill: #D41443;
 }
