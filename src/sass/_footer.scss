@@ -1,4 +1,4 @@
-* {
+.footer-contents {
     background: #FFF5F6;
     flex-shrink: 0;
 }
@@ -9,10 +9,13 @@
 .footer-text1 {
     color: #FFA5BA;
     font-family: Titan One;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 1.2px;
     margin-bottom: 0;
+    @media screen and (min-width: 768px){
+        
+    }
 }
 
 .footer-text2 {
@@ -29,6 +32,7 @@
     align-items: last baseline;
     justify-content: end;
     gap: 30px;
+    
 }
 
 /* icon fill change on hover not working*/
@@ -41,20 +45,34 @@
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
+    height: 877px;
+    margin-top: 40px;
 }
 
 .footer-contacts {
     gap: 40px;
     margin-right:16px;
+    position: relative;
+    top: 120px;
+    right: 230px;
+     
+}
+.footer-con-tel {
+    display: flex;
+    width: 230px;
+    font-size: 12px;
+    position: relative;
+    right: 40px;
 }
 
 .footer-contact-text {
     color: #000;
     font-family: DM Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 186%;
     letter-spacing: 0.32px;
+    
 }
 
 .footer-contact-link {
