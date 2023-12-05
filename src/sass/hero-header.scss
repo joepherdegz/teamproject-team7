@@ -34,6 +34,24 @@
     display: none;
     list-style: none;
 }
-.menu-icon {
+.mobile-menu-icon {
     fill: #D41443;
+}
+.js-menu-container{
+    display: block;
+    // position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+}
+.js-menu-close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    
 }
