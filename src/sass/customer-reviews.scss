@@ -1,0 +1,116 @@
+// @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+
+.customer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    // margin-top: 0;
+    @media screen and (min-width: 1200px) {
+        margin-top: 0;
+         
+    }
+}
+
+.customer-slider {
+    width: 100%;
+    max-width: 90%;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.customer-slides::-webkit-scrollbar{
+    display: none;
+}
+
+.customer-slides {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slide-container {
+    display: block;
+}
+
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 650px;
+    margin-right: 0;
+    box-sizing: border-box;
+    background: white;
+    transform-origin: center center;
+    transform: scale(1);
+    scroll-snap-align: center;
+    padding-top: 0;
+    @media screen and (min-width: 768px) {
+            height: 450px;
+    
+        }
+}
+
+// Style for the background of the customer comment
+.customer-comment {
+    background-color: #fafafa;
+    margin-top: 16px;
+    padding: 47px;
+}
+
+.customer-comment p span::before{
+    content: url('../images/customer-reviews/quote.svg#quote');
+    position: relative;
+    top: 0;
+    z-index: 0;
+}
+
+.customer-comment p span {
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.customer-comment p {
+    background: repeating-linear-gradient(#fafafa,#fafafa 30px,#e1e1e1, #e1e1e1 31px);
+    background-position-y: 14px;
+}
+
+// Breadcrumbs navigator below customer slides
+.customer-slider-nav{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    text-decoration: none;
+    gap: 18px;
+    margin-bottom: 40px;
+    margin-top: 0;
+     
+}
+
+.customer-slider-nav-button{
+    fill: #D9D9D9;
+}
+
+.customer-slider-nav-button:hover,
+.customer-slider-nav-button:focus{
+    fill: #D31342;
+}
+
+
+
+// Font of customers' name & testimonials
+.customer-details h2 {
+    font-family:'DM Sans';
+    margin-bottom: 0;
+}
+
+.customer-comment p {
+    font-family:'DM Sans';
+}

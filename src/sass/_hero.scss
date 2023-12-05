@@ -1,0 +1,240 @@
+.hero {
+    height: 664px;
+    flex-shrink: 0;
+    margin: 0;
+    background-color: #FFB8CA;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+
+.hero-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+
+.hero-class-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+}
+
+
+
+.hero-list a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16PX;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.hero-buynow {
+    width: 159px;
+    height: 44px;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #D41443;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 22px;
+    background: #FFF;
+    border: 0;
+}
+
+
+
+h1 {
+    color: #FFF;
+    font-family: Titan One;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.52px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: #D41443;
+    font-family: Titan One;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.5%;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+}
+
+.hero-products {
+    width: 107px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #D41443;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-howitsmade {
+    width: 138px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    border: none;
+
+    color: #D41443;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-number {
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-number span {
+    color: #D41443;
+    text-align: right;
+    font-family: Titan One;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+}
+
+.hero-scoop {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.hero1{
+    padding: 37px 37px 0;
+    z-index: 1;
+
+}
+
+.hero2 {
+    padding: 0 37px 0;
+    z-index: 1;
+
+}
+
+.hero3 {
+    position: relative;
+    bottom: 20%;
+    padding: 0 37px 0;
+    z-index: 0;
+
+}
+
+.hero-milk {
+    position: absolute;
+    bottom: 30%;
+}
+
+.hero-scoop {
+    position: absolute;
+    left: 20%;
+}
+
+.hero-ice-cream {
+    position: relative;
+    left: 55%;
+    bottom: 115;
+    z-index: 1;
+}
+
+.hero-soo-tasty {
+    position: absolute;
+    right: 20px;
+    bottom: 115;
+    z-index: 2;
+}
+
+.ellipse-1 {
+    position: relative;
+    top: 43;
+    left: 15;
+    z-index: 3;
+}
+
+.hero-cafes {
+    position: relative;
+    z-index: 4;
+}
+
+.ellipse-2 {
+    position: relative;
+    top: 43;
+    left: 15;
+    z-index: 3;
+}
+
+.hero-strucks {
+    position: relative;
+    z-index: 4;
+}
+
+.ellipse-3 {
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 170;
+    left: 700;
+    z-index: 1;
+}
+
+
+.hero-list:hover a {
+    color: #D41443;
+}
+
+.hero-buynow:hover {
+    background: #ECEBEB;
+    cursor: pointer;
+}
+
+.hero-howitsmade:hover {
+    background: #ECEBEB;
+
+    cursor: pointer;
+}

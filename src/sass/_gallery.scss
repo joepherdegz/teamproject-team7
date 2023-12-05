@@ -1,22 +1,107 @@
 
 .gallery {
-    width: 1013px;
+    max-width: 100%;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-image: -webkit-linear-gradient(90deg, rgba(250, 250, 250, 1) 80%, rgba(255, 244, 245, 1) 20%);
+    background-image: -webkit-linear-gradient(90deg, rgba(250, 250, 250, 1) 70%, rgba(255, 244, 245, 1) 20%);
+    background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255) 70%, rgba(255, 244, 245, 1) 20%);
+    display: none;
+    @media screen and (min-width: 1200px) {
+           display: block;
+           position: relative;
+           top: -25px;
+        }
+         
+    }
+    .galry {
+        display: flex;
+        justify-content: center;
     }
 
-.column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+// .column {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
 
 .img-gallery {
     border-radius: 20px;
     background: lightgray -134.438px -141.738px / 927.536% 309.352% no-repeat;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    
 }
+ 
+
+.first-pic {
+    padding-top: 0;
+   
+}
+
+.pic4-upper-pic {
+    vertical-align: bottom;
+    width: 140px;
+    padding-bottom: 32px;
+}
+
+.pic6-lower-pic {
+    padding-bottom: 116px;
+}
+
+.last-pic {
+    padding-top: 0px;
+}
+
+.pic9-upper-pic {
+    width: 141px;
+    vertical-align: bottom;
+    padding-bottom: 14px;
+}
+
+.pic1-upper-pic {
+    width: 287px;
+    padding-top: 82px;
+}
+
+.pic10-upper-pic {
+    vertical-align: bottom;
+    padding-bottom: 68px;
+    width: 140px;
+}
+.image-group {
+    width: 100%;
+    height: 100%;
+    padding: 0 2px;
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+
+// @media only screen and (min-width: 768px) {
+//     .image-group {
+//         visibility: hidden;
+//     }
+
+// }
+
+// @media only screen and (max-width: 768px) {
+//     .gallery {
+//         visibility: hidden;
+//     }
+
+//     .image-group {
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: center;
+//         width: 768px;
+//     }
+
+
+
+
