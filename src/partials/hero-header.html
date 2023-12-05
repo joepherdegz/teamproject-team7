@@ -1,9 +1,9 @@
 <section class="hero-header">
     <div class="hero-section">
-        <div class="logo">
-            <img src="./images/hero-header/Group.png">
+        <div class="hero-logo">
+            <img class="logo" src="./images/hero-header/Group.png">
         </div>
-        <nav class="navigation">
+        <nav class="navi">
             <ul class="nav-items">
                 <li class="nav list">
                     <a class="home" href="hero-header">Home</a>
@@ -22,9 +22,22 @@
                 </li>
             </ul>  
         </nav>
+
+        <!-- MOBILE MENU SECTION -->
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="menu-icon" width="32" height="22">
+                <use class="mobile-menu-icon" href="./images/hero-header/icons.svg#hamburger"></use>
+            </svg>
+        </button>
+        <div class="js-menu-container mobile-menu" id="mobile-menu">
+            <button class="js-close-menu" type="button">
+                <svg class="js-menu-close" width="8" height="8">
+                    <use class="mobile-menu-icon" href="./images/hero-header/icons.svg#close"></use>
+                </svg>
+            </button>
         <div>
             <div class="buynow">
-            <button type="button" class="buy-btn" data-modal-open="modal1">Buy now<img class="buy-arrow" src="./images/hero-header/arrow-right 3.png"></img>
+            <button type="button" class="buy-btn">Buy now<img class="buy-arrow" src="./images/hero-header/arrow-right 3.png"></img>
             </button>
             </div>
             <!-- <div class="backdrop is-hidden" data-modal>
@@ -35,10 +48,51 @@
                         </svg>
                     </button>
                 </div>
-            </div>
+            </div> -->
+        </div>
+        <div class="hero-title">
+            <h2 class="hero-text"><span class="hero-text1">ICE CREAM <br> MADE WITH</span><br><span class="hero-text2"> PASSION</span></h2>
+        </div>
+        <div class="products">
+            <button class="prod" type="button">Products</button>
+            <button class="how" type="button">How it's made?</button>
+        </div>
+        <div class="hero-images">
+            <img class="ellipse-3" src="./images/hero-header/Ellipse 3.png" alt="ellipse 3">
+            <img class="slider-pic7" src="./images/hero-header/slider-pic7 1.png" alt="slider-pic7">
+        </div>
+        <div class="hero-inv">
+            <ul class="inv-items">
+                <li class="num16">16</li>
+                <li class="cafes">cafes</li>
+                <li class="num23">23</li>
+                <li class="food-trucks">food trucks</li>
+            </ul>
+        </div>
+        <div class="ellipse">
+            <ul class="ellipses">
+                <li class="ellipse1">
+                    <img src="./images/hero-header/Ellipse 1.png" alt="ellipse 1" width="30" height="30">
+                </li>
+                <li class="ellipse2">
+                    <img src="./images/hero-header/Ellipse 2.png" alt="ellipse 2" width="30" height="30">
+                </li>
+            </ul>
+        </div>
+        <div class="hero-slider">
+            <img class="slider-pic5" src="./images/hero-header/slider-pic5 1.png" alt="slider-pic5">
+            <p class="hero-slider-text">Indulge in a scoop of ice<br>cream made with passion and<br> treat your taste buds to an <br>unforgettable experience!</p>
+            <img src="./images/hero-header/arrow-right 3.png" alt="">
+        </div>
+        <div class="slider-pic4">
+            <img src="./images/hero-header/slider-pic4 1.png" alt="slider-pic4">
         </div>
         
     </div>
     
-    <script src="/src/hero-header.js"></script>
+    <script type="text/javascript" src="/src/hero-header.js"></script>
+    <script src="/src/mobile-menu.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
 </section>
