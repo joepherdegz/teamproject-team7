@@ -35,7 +35,6 @@ circle {
     fill: #FEA5BB;
 }
 
-/* icon fill change on hover not working*/
 circle:hover,
 circle:focus {
     fill: #D41443;
@@ -77,7 +76,16 @@ circle:focus {
     gap: 7px;
 }
 
-@media screen and (minwidth: 768px) {
+.footer-copyright-text {
+    margin-top: 2px;
+}
+
+@media (min-width: 768px) {
+
+    .footer-texts {
+        flex-basis: calc(100% /2 - 30px);
+    }
+
     .footer-text1 {
         font-size: 26px;
         letter-spacing: 1.04px;
@@ -86,5 +94,43 @@ circle:focus {
     .footer-text2 {
         font-size: 48px;
         letter-spacing: 2.88px;
+    }
+
+    .footer-contact-text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) {
+
+    .footer-top {
+        flex-wrap: wrap;
+    }
+    
+    .footer-texts {
+        flex-basis: calc(100% / 2 - 30px);
+    }
+    
+    .footer-text1 {
+        width: 232px;
+        font-size: 18px;
+    }
+    
+    .footer-text2 {
+        font-size: 34px;
+    }
+
+    .footer-contacts {
+        margin-left: 18%;
+    }
+
+    .footer-contact-text {
+        font-size: 12px;
+    }
+
+    .footer-copyright-text {
+        height: 42px;
+        padding-left: 30%;
+        padding-right: 25%;
     }
 }
