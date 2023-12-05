@@ -55,9 +55,13 @@
     }
 }
 
+circle {
+    fill: #FEA5BB;
+}
+
 /* icon fill change on hover not working*/
-.socials-link-icon:hover,
-.socials-link-icon:focus {
+circle:hover,
+circle:focus {
     fill: #D41443;
 }
 
