@@ -1,0 +1,132 @@
+.footer-contents {
+    background: #FFF5F6;
+    flex-shrink: 0;    
+}
+.footer-texts {
+    margin-left: 16px;
+}
+
+.footer-text1 {
+    width: 232px;
+    height: 42px;
+    color: #FFA5BA;
+    font-family: Titan One;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    @media screen and (min-width: 768px){
+        font-size: 30px;
+        width: 472px;
+        height: 34px;
+        letter-spacing: 1.2px;
+
+    }
+}
+
+.footer-text2 {
+    color: #D41443;
+    font-family: Titan One;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 1.36px;
+    margin-top: 10px;
+    @media screen and (min-width: 768px){
+        letter-spacing: 3.48px;
+    }
+    @media screen and (min-width: 1200px){
+        font-size: 58px;
+    }
+}
+
+.footer-socials {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;;
+    padding-top: 10px;
+    align-items: last baseline;
+    justify-content: end;
+    @media screen and (min-width: 768px){
+        width: 34px;
+     height: 34px;
+     
+}
+
+}
+
+/* icon fill change on hover not working*/
+.socials-link-icon:hover,
+.socials-link-icon:focus {
+    fill: #D41443;
+}
+
+.footer-top {
+    // display: flex;
+    // align-items: last baseline;
+    // justify-content: space-between;
+    height: 877px;
+    margin-top: 40px;
+    width: 100vw;
+@media screen and (min-width: 768px){
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+    
+}
+
+
+.footer-con-tel {
+     
+    width: 250px;
+    height: 22px;
+    font-size: 12px;
+    padding-right: 50px;
+     
+}
+
+.footer-contact-text {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 186%;
+    // letter-spacing: 0.32px;
+    
+}
+
+.footer-contact-link {
+    color: #D41443;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #907E82;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 186%;
+    letter-spacing: 0.28px;
+    gap: 7px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+.footer-ver-line {
+    width: 100vw;
+    height: 2px;
+}
+
+@media screen and (minwidth: 768px) {
+    .footer-text1 {
+        font-size: 26px;
+        letter-spacing: 1.04px;
+    }
+
+    .footer-text2 {
+        font-size: 48px;
+        letter-spacing: 2.88px;
+    }
+}
