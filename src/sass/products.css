@@ -36,7 +36,7 @@
 
 
 /*PRODUCTS STYLING*/
-.prod-pic1 {
+.prod-pic {
     position: relative;
     top: 150px;
     mix-blend-mode: multiply;
@@ -49,7 +49,7 @@
     }
         @media screen and (min-width: 1200x) {
             width: 368px;
-            height: 535px;
+            height: 394px;
         }    
 }
 
@@ -187,7 +187,9 @@
         }
 }
 .product-arrow-icon {
-    width: 2px;
-    height: 2px;
-
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
