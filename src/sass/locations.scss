@@ -2,20 +2,23 @@
 
 .locations-section {
     display: flex;
-    background-color: #FFA5BA;
     justify-content: center;
-    
+    position: relative;
+    top: -130px;
 }
 
+
 .location-container {
-        border-radius: 24px;
-        background-color: #FFFFFF;
-        padding: 10px;
-        display: inline-block;
-        width: 368px;
-        border: 1px;
-        border-color: #E1E1E1;
-        margin: 10px;
+    border-radius: 24px;
+    background-color: #FFF;
+    padding: 10px;
+    display: inline-block;
+    width: 368px;
+    border: 1px;
+    border-color: #E1E1E1;
+    margin: 10px;
+    border-radius: 24px;
+    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
 }
 
 .cat-type-container {
@@ -32,7 +35,7 @@
     background-color: #F0D1A5;
 }
 
-.cat-type-container-foodtruck{
+.cat-type-container-foodtruck {
     background-color: #C2E297;
 }
 
@@ -59,10 +62,12 @@
 
 .location-time {
     margin-bottom: 20px;
-    color: #FFA5BA;;
+    color: #FFA5BA;
+    ;
 }
 
-.location-telnum, .location-email {
+.location-telnum,
+.location-email {
     display: block;
     text-decoration: none;
     color: #907E82;
@@ -72,10 +77,11 @@
     display: flex;
     gap: 10px;
     justify-content: center;
+    
 }
 
 .locations-button-design {
-    color: var(--strongred);
+    color: #D41342;
     background-color: white;
     text-align: center;
     font-family: DM Sans;
@@ -93,10 +99,12 @@
 }
 
 .locations-button-design:hover {
-    background-color: var(--softred);
+    background-color: #e17992;
     color: white;
 }
-
+.loc-arrow:hover {
+    color: #FFF;
+}
 /* Media Queries */
 
 @media (min-width: 768px) and (max-width: 1199px) {
