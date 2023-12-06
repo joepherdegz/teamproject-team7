@@ -1,4 +1,4 @@
-:root {
+.product {
     --headerpink: #FFA5BA;
     --headerdarkpink: #D41443;
     --bgpink: #FFB8CA;
@@ -8,42 +8,70 @@
 
 }
 
-* {
+/* * {
     box-sizing: border-box;
-}
-
+} */
  
+.product-header{
+    margin-bottom: -140px;
+}
 .product-list {
     font-family: 'Titan One', sans-serif;
-    /* font-family: 'DM Sans', sans-serif; */
     list-style: none;
     padding-left: 0;
     display: flex;
     gap: 40px;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: -10px;
+    margin: 0 10px;
+    @media screen and (min-width:768px){
+        flex-direction: row;
+        display: flex;
+        gap: 50px;
+    }
 }
 
 
 /*PRODUCTS STYLING*/
-.prod-pic1 {
+.prod-pic {
     position: relative;
     top: 150px;
     mix-blend-mode: multiply;
-     
+    /* width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+    @media (min-width:768px){
+        width: 224px;
+            height: 224px;
+            flex-shrink: 0;
+    } */
+
+    
+    
+    
 }
 
-.product-header {
+.product-header1 {
     color: var(--headerpink);
-    text-align: center;
+    /* text-align: center; */
     font-family: "Titan One";
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    margin-left: 460.1;
-    margin-right: 459.29;
-    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    @media screen and (minwidth: 768px) {
+        font-size: 26px;
+    }
     
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+    }
 }
 
 .product-header2 {
@@ -55,6 +83,8 @@
     letter-spacing: 3.48px;
     text-transform: uppercase;
     margin-top: 0;
+    margin-bottom: -50px;
+    
 }
 
 .product img {
@@ -113,6 +143,8 @@
     width: 368px;
     height: 535px;
     flex-shrink: 0;
+    mix-blend-mode: darken;
+        padding-top: 150px;
 }
 
 .product3-bg {
@@ -121,9 +153,11 @@
     width: 368px;
     height: 535px;
     flex-shrink: 0;
+    mix-blend-mode: darken;
+    padding-top: 150px;
 }
 .product-arrow-icon {
-    width: 40px;
-    height: 40px;
+    width: 2px;
+    height: 2px;
 
 }
