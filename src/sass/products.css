@@ -7,11 +7,7 @@
     --white: #FFF;
 
 }
-
-/* * {
-    box-sizing: border-box;
-} */
- 
+  
 .product-header{
     margin-bottom: -140px;
 }
@@ -19,14 +15,13 @@
     font-family: 'Titan One', sans-serif;
     list-style: none;
     padding-left: 0;
-    display: flex;
     gap: 40px;
-    justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     column-gap: -10px;
     margin: 0 10px;
+    
     @media screen and (min-width:768px){
         flex-direction: row;
         display: flex;
@@ -38,19 +33,24 @@
 /*PRODUCTS STYLING*/
 .prod-pic {
     position: relative;
-    top: 150px;
+    top: 140px;
     mix-blend-mode: multiply;
     width: 280px;
     height: 280px;
+    margin: -10px 0;
      
     @media screen and (min-width: 768px){
         width: 224px;
-            height: 224px;   
+            height: 224px; 
+            position: relative;
+                top: 150px;
     }
-        @media screen and (min-width: 1200x) {
-            width: 368px;
-            height: 394px;
-        }    
+     @media screen and (min-width: 1200px) {
+        width: 368px;
+        height: 394px;
+        position: relative;
+            top: 150px;
+    }    
 }
 
 .product-header1 {
@@ -77,47 +77,53 @@
     color: var(--headerdarkpink);
     text-align: center;
     font-family: "Titan One";
-    font-size: 58px;
+    font-size: 34px;
     font-weight: 400;
     letter-spacing: 3.48px;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: -50px;
+    @media screen and (minwidth: 768px) {
+            font-size: 48px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 58px;
+        }
     
 }
 
-/* .product-pic {
-    width: 368px;
-    height: 394px;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-} */
-
+ 
+.prod-title{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
 
 .product-name {
     color: var(--white);
     text-align: center;
     letter-spacing: 1.2px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     width: 368px;
     height: 34px;
     padding-top: 5px;
     padding-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    @media screen and (min-width: 1200px) {
+            font-size: 30px;
+        }
 }
 
 .product-text {
     text-align: center;
     font-family: DM Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 176%; /* 28.16px */
-    letter-spacing: 0.64px;
+    letter-spacing: 0.56px;
     color: var(--white);
     width: 304px;
     height: 134px;
@@ -127,13 +133,27 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    
+    width: 216px;
+        height: 124px;
+    @media screen and (min-width: 768px) {
+            width: 188px;
+                height: 150px;
+                flex-shrink: 0;
+        }
+        @media screen and (min-width: 1200px) {
+            font-size: 16px;
+            letter-spacing: 0.64px;
+            width: 304px;
+                height: 134px;
+                flex-shrink: 0;
+        }
 }
 
 .product1-bg {
     /* display: flex;
     justify-content: last baseline;
     align-items: center; */
+    text-align: center;
     background-color: var(--bgpink);
     border-radius: 24px;
     width: 280px;
@@ -145,7 +165,7 @@
         width: 224px;
         height: 473px;
     }
-        @media (min-width: 768px) {
+        @media (min-width: 1200px) {
             width: 368px;
             height: 535px;
         }
@@ -163,7 +183,7 @@
         width: 224px;
         height: 473px;
     }
-    @media (min-width: 768px) {
+    @media (min-width: 1200px) {
         width: 368px;
         height: 535px;
     }
@@ -181,15 +201,18 @@
         width: 224px;
         height: 473px;
         }
-    @media (min-width: 768px) {
+    @media (min-width: 1200px) {
          width: 368px;
         height: 535px;
         }
 }
 .product-arrow-icon {
-    width: 40px;
+    /* width: 40px; */
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    align-self: center;
+    margin-top: 40px;
 }
