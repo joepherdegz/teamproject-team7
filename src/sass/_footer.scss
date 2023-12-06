@@ -43,10 +43,12 @@
     height: 32px;
     display: flex;
     gap: 30px;
+    padding: 10px 10px 20px 148px;
     padding-bottom: 20px;;
     padding-top: 10px;
     align-items: last baseline;
-    justify-content: end;
+    justify-content: last baseline;
+    // float: right;
     @media screen and (min-width: 768px){
         width: 34px;
         height: 34px;   
@@ -78,17 +80,17 @@
 .footer-con-tel {
     width: 250px;
     height: 22px;
-    font-size: 12px;
+     
     padding-right: 16px;
     @media screen and(min-width: 768px){
         width: 280px;
         height: 26px;
-        font-size: 14px;
+         
     }
     @media screen and (min-width: 1200px) {
         width: 319px;
         height: 30px;
-        font-size: 16px;
+         
     }
 }
 
