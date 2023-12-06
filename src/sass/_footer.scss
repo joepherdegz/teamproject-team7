@@ -1,27 +1,59 @@
 * {
     background: #FFF5F6;
-    flex-shrink: 0;
 }
+
 .footer-texts {
     margin-left: 16px;
+
+    @media screen and (max-width: 768px) {
+        flex-basis: calc(100% /2 - 30px);
+    }
 }
 
 .footer-text1 {
     color: #FFA5BA;
     font-family: Titan One;
-    font-size: 30px;
     font-weight: 400;
-    letter-spacing: 1.2px;
     margin-bottom: 0;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 30px;
+        letter-spacing: 1.2px;
+    }
+
+    @media screen and (max-width:768px) {
+        font-size: 26px;
+        letter-spacing: 1.04px;
+        flex-shrink: 0;
+    }
+
+    @media screen and (min-width: 320px) {
+        font-size: 18px;
+        flex-shrink: 0;
+    }
 }
 
 .footer-text2 {
     color: #D41443;
     font-family: Titan One;
-    font-size: 58px;
     font-weight: 400;
-    letter-spacing: 3.48px;
     margin-top: 10px;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 58px;
+        letter-spacing: 3.48px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        letter-spacing: 2.88px;
+        flex-shrink: 0;
+    }
+
+    @media screen and (min-width: 320px) {
+        font-size: 34px;
+        flex-shrink: 0;
+    }
 }
 
 .footer-socials {
@@ -44,11 +76,19 @@ circle:focus {
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
+
+    @media screen and (min-width: 320px) {
+        flex-wrap: wrap;
+    }
 }
 
 .footer-contacts {
     gap: 40px;
     margin-right:16px;
+
+    @media screen and (min-width:320px) {
+        margin-left: 18%;
+    }
 }
 
 .footer-contact-text {
@@ -78,57 +118,8 @@ circle:focus {
 
 .footer-copyright-text {
     margin-top: 2px;
-}
 
-@media (min-width: 768px) {
-
-    .footer-texts {
-        flex-basis: calc(100% /2 - 30px);
-    }
-
-    .footer-text1 {
-        font-size: 26px;
-        letter-spacing: 1.04px;
-    }
-
-    .footer-text2 {
-        font-size: 48px;
-        letter-spacing: 2.88px;
-    }
-
-    .footer-contact-text {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 320px) {
-
-    .footer-top {
-        flex-wrap: wrap;
-    }
-    
-    .footer-texts {
-        flex-basis: calc(100% / 2 - 30px);
-    }
-    
-    .footer-text1 {
-        width: 232px;
-        font-size: 18px;
-    }
-    
-    .footer-text2 {
-        font-size: 34px;
-    }
-
-    .footer-contacts {
-        margin-left: 18%;
-    }
-
-    .footer-contact-text {
-        font-size: 12px;
-    }
-
-    .footer-copyright-text {
+    @media screen and (min-width:320px) {
         height: 42px;
         padding-left: 30%;
         padding-right: 25%;
