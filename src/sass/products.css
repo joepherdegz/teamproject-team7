@@ -16,12 +16,12 @@
     list-style: none;
     padding-left: 0;
     gap: 40px;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     column-gap: -10px;
     margin: 0 10px;
-    
+    grid-template-rows: 1fr 1fr 1fr;
     @media screen and (min-width:768px){
         flex-direction: row;
         display: flex;

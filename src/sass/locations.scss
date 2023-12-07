@@ -1,10 +1,12 @@
 /* Locations Section Styling */
 
 .locations-section {
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-items: center;
     position: relative;
     top: -130px;
+    left: 20px;
 }
 
 
@@ -14,7 +16,11 @@
     padding: 10px;
     font-family: 'DM Sans';
     font-weight: 500;
-    display: inline-block;
+    // display: grid;
+     
+     
+    // text-align: center;
+     
     width: 368px;
     border: 1px;
     border-color: #E1E1E1;
