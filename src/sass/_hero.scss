@@ -130,6 +130,7 @@ h1 span {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: none;
 }
 
 .hero-number span {
@@ -238,21 +239,23 @@ h1 span {
     position: relative;
     z-index: 4;
 }
-
+ 
 .ellipse-3 {
     width: 346px;
     height: 344px;
     flex-shrink: 0;
     position: absolute;
     bottom: 170;
-    justify-content: center;
-    // left: 218;
+    top: 60px; 
+    left: 118;
     z-index: 1;
+    overflow: hidden;
     @media screen and (min-width: 768px) {
             width: 335px;
             height: 333px;
             // position: relative;
             // top: 150px;
+             
         }
     
         @media screen and (min-width: 1200px) {
@@ -260,6 +263,7 @@ h1 span {
             height: 534px;
             // position: relative;
             // top: 150px;
+             
         }
 }
 
