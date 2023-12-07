@@ -202,9 +202,17 @@ h1 span {
 
 .hero-soo-tasty {
     position: absolute;
-    right: 20px;
-    bottom: 115;
+    // right: 20px;
+    // bottom: 115;
     z-index: 2;
+    display: none;
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        text-align: right;
+        align-self: last baseline;
+    }
 }
 
 .ellipse-1 {

@@ -9,7 +9,7 @@
 }
   
 .product-header{
-    margin-bottom: -140px;
+    margin-bottom: -10px;
 }
 .product-list {
     font-family: 'Titan One', sans-serif;
@@ -19,9 +19,9 @@
     display: grid;
     flex-direction: column;
     justify-content: center;
-    column-gap: -10px;
+    gap: -10px;
     margin: 0 10px;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     @media screen and (min-width:768px){
         flex-direction: row;
         display: flex;
@@ -34,16 +34,14 @@
 .prod-pic {
     position: relative;
     top: 140px;
-    mix-blend-mode: multiply;
     width: 280px;
     height: 280px;
-    margin: -10px 0;
-     
+    mix-blend-mode: multiply;
     @media screen and (min-width: 768px){
         width: 224px;
             height: 224px; 
             position: relative;
-                top: 150px;
+                top: 90px;
     }
      @media screen and (min-width: 1200px) {
         width: 368px;
@@ -215,4 +213,14 @@
     text-align: center;
     align-self: center;
     margin-top: 40px;
+}
+.product1{
+    margin-top: 0px;
+}
+.product2 {
+    position: relative;
+    /* top: -100px; */
+    @media (min-width: 768px){
+        /* top: 50px; */
+    }
 }

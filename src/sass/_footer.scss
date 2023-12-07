@@ -37,23 +37,69 @@
         font-size: 58px;
     }
 }
+.footer-contacts {
+    
+    display: flex;
+    justify-content: end;
+    align-items: self-end;
+}
 
 .footer-socials {
     width: 32px;
     height: 32px;
     display: flex;
     gap: 30px;
-    padding: 10px 10px 20px 148px;
-    padding-bottom: 20px;;
-    padding-top: 10px;
-    align-items: last baseline;
-    justify-content: last baseline;
-    // float: right;
+    padding: 10px 0px 60px 140px;
+     
+    // align-items: last baseline;
+    // justify-content: last baseline;
+     
     @media screen and (min-width: 768px){
         width: 34px;
         height: 34px;   
     }
 }
+.footer-con-tel {
+    width: 250px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    // padding-right: 16px;
+    @media screen and(min-width: 768px) {
+        width: 280px;
+        height: 26px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 319px;
+        height: 30px;
+
+    }
+}
+
+.footer-contact-text {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 186%;
+    width: 250px;
+    height: 22px;
+    // letter-spacing: 0.32px;
+    @media screen and(min-width: 768px) {
+
+        font-size: 14px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        font-size: 16px;
+    }
+
+}
+
 
 circle {
     fill: #FEA5BB;
@@ -80,41 +126,7 @@ circle:focus {
 }
 
 
-.footer-con-tel {
-    width: 250px;
-    height: 22px;
-     
-    padding-right: 16px;
-    @media screen and(min-width: 768px){
-        width: 280px;
-        height: 26px;
-         
-    }
-    @media screen and (min-width: 1200px) {
-        width: 319px;
-        height: 30px;
-         
-    }
-}
 
-.footer-contact-text {
-    color: #000;
-    font-family: DM Sans;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 186%;
-    // letter-spacing: 0.32px;
-    @media screen and(min-width: 768px) {
-            
-            font-size: 14px;
-        }
-    
-        @media screen and (min-width: 1200px) {
-             
-            font-size: 16px;
-        }
-    
-}
 
 .footer-contact-link {
     color: #D41443;
