@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+     
     
     @media screen and (min-width: 1200px) {
         margin-top: 0;
@@ -31,6 +32,7 @@
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+     
 }
 
 .slide-container {
@@ -89,11 +91,11 @@
     justify-content: center;
     text-decoration: none;
     gap: 18px;
-    margin-bottom: 40px;
-    margin-top: 0;
+    margin-bottom: 140px;
+     
     width: 72px;
     height: 12px;
-     
+    
 }
 
 .customer-slider-nav-button{
@@ -110,7 +112,8 @@
 // Font of customers' name & testimonials
 .customer-details h2 {
     font-family:'DM Sans';
-    margin-bottom: 0;
+    margin-bottom: -80px;
+    margin-top: 20px;
 }
 
 .customer-comment p {
