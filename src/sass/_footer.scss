@@ -3,12 +3,14 @@
     margin: 1em;
 }
 .footer-top{
+     
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    @media (minwidth: 768px){
+    @media (min-width: 768px){
         display: flex;
         justify-content: space-between;
+        gap: 140px;
     }
 }
 .footer-text1 {
@@ -56,7 +58,7 @@
     }
 }
 .footer-socials {
-    padding-left: 50px;
+    padding-left: 95px;
     display: flex;
      
 }
@@ -68,7 +70,7 @@
 .footer-con-tel{
  font-family: DM sans;
 //  padding-top: 20px;
- padding-left: 60px;
+ padding-left: 55px;
  width: 300px;
  height: 22px;
  font-size: 12px;
@@ -104,5 +106,5 @@ circle:focus {
     padding-bottom: 20px;
 }
 .footer-ver-line{
-    stroke-width: 1px auto;
+    stroke-width: 1px;
 }
