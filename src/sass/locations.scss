@@ -139,9 +139,15 @@
     color: #FFA5BA;
     ;
 }
-// .location-contacts{
-//     padding-top: 10px;
-// }
+.location-cat-separator{
+    width: 216px;
+    @media (min-width: 768px) {
+        width: 160px;
+        }
+                @media (min-width: 1200px) {
+                    width: 288px;
+                }
+}
 .location-telnum,
 .location-email {
     display: block;

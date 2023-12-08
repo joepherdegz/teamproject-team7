@@ -32,7 +32,6 @@
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-     
 }
 
 .slide-container {
@@ -112,8 +111,12 @@
 // Font of customers' name & testimonials
 .customer-details h2 {
     font-family:'DM Sans';
-    margin-bottom: -80px;
+    margin-bottom: -180px;
     margin-top: 20px;
+    @media (min-width: 768px) {
+        margin-bottom: -50px;
+    
+        }
 }
 
 .customer-comment p {
