@@ -189,12 +189,13 @@ h1 span {
 
 .hero-ice-cream {
     position: relative;
-    left: 40px;
+    right: 240px;
     bottom: 80px;
     // bottom: 115px;
     z-index: 1;
     width: 171px;
     height: 410px;
+    // margin-left: auto;
     @media (min-width: 768px){
         width: 143px;
             height: 336px;
@@ -249,9 +250,9 @@ h1 span {
     height: 344px;
     flex-shrink: 0;
     position: absolute;
-    bottom: 170;
+    bottom: 170px;
     // top: 50px; 
-    left: 68;
+    left: 28;
     z-index: 1;
     overflow: hidden;
      
