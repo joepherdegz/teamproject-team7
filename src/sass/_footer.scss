@@ -35,13 +35,24 @@
     font-family: Titan One;
     font-size: 34px;
     font-weight: 400;
+    line-height: normal;
     letter-spacing: 1.36px;
     margin-top: 10px;
+    width: 200px;
+    height: 76px;
+    // margin-left: 1.2em;
     @media screen and (min-width: 768px){
-        letter-spacing: 3.48px;
+        letter-spacing: 2.88px;
+        width: 340px;
+        height: 110px;
+
     }
     @media screen and (min-width: 1200px){
         font-size: 58px;
+        letter-spacing: 3.48px;
+        width: 474px;
+            height: 66px;
+            
     }
 }
 .footer-contacts {
@@ -73,18 +84,18 @@
     width: 250px;
     height: 22px;
     display: flex;
-    flex-direction: column;
-    padding-right: 10px;
+     
+    // padding-right: 10px;
     // padding-right: 16px;
-    @media screen and(min-width: 768px) {
+    @media (min-width: 768px) {
         width: 280px;
         height: 26px;
 
     }
 
-    @media screen and (min-width: 1200px) {
-        width: 319px;
-        height: 30px;
+    @media (min-width: 1200px) {
+        width: 20em;
+        height: 1.87em;
 
     }
 }
@@ -142,6 +153,7 @@ circle:focus {
     color: #D41443;
     text-decoration: none;
     font-size: 12px;
+    flex-direction: row;
 }
 
 .footer-copyright {
