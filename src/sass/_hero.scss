@@ -1,11 +1,14 @@
 .hero {
-    height: 664px;
+    
     flex-shrink: 0;
     margin: 0;
     background-color: #FFB8CA;
     flex-shrink: 0;
     position: relative;
-    z-index: 1;
+    // z-index: 1;
+    width: auto;
+    height: 502px;
+
 }
 .hero-class {
     display: flex;
@@ -186,8 +189,9 @@ h1 span {
 
 .hero-ice-cream {
     position: relative;
-    left: 25%;
-    bottom: 115;
+    left: 40px;
+    bottom: 80px;
+    // bottom: 115px;
     z-index: 1;
     width: 171px;
     height: 410px;
@@ -246,10 +250,11 @@ h1 span {
     flex-shrink: 0;
     position: absolute;
     bottom: 170;
-    top: 60px; 
-    left: 118;
+    // top: 50px; 
+    left: 68;
     z-index: 1;
     overflow: hidden;
+     
     @media screen and (min-width: 768px) {
             width: 335px;
             height: 333px;
