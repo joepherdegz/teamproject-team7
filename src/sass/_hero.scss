@@ -76,8 +76,8 @@
 }
 .hero-ice-cream {
     position: relative;
-    left: 40px;
-    bottom: 28px;
+    left: 10%;
+    top: 25px;
     z-index: 1;
     width: 171px;
     height: 410px;
@@ -116,7 +116,30 @@
             top: 80px;
         }
 }
+.ellipse-3 {
+    width: 346px;
+    height: 344px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 50px;
+    left: 15%;
+    z-index: 1;
+    overflow: hidden;
 
+    @media screen and (min-width: 768px) {
+        width: 335px;
+        height: 333px;
+        left: 200px;
+        bottom: 80px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 534px;
+        height: 534px;
+        left: 620px;
+        bottom: 200px
+    }
+}
 .hero-class-list {
      
     flex-direction: row;
@@ -403,31 +426,7 @@ h1 span {
     z-index: 4;
 }
  
-.ellipse-3 {
-    width: 346px;
-    height: 344px;
-    flex-shrink: 0;
-    position: absolute;
-    bottom: 100px;
-    left: 28px;
-    z-index: 1;
-    overflow: hidden;
-     
-    @media screen and (min-width: 768px) {
-            width: 335px;
-            height: 333px;
-            left: 200px;
-            bottom: 80px;  
-        }
-    
-        @media screen and (min-width: 1200px) {
-            width: 534px;
-            height: 534px;
-            left: 620px;
-            bottom: 200px
-             
-        }
-}
+
 
 
 .hero-list:hover a {
