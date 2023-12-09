@@ -1,15 +1,16 @@
 .hero {
     margin: 0;
+    position: relative; 
     background-color: #FFB8CA;
     flex-shrink: 0;
-    position: relative;
+     
     // z-index: 1;
     width: auto;
     height: 502px;
     @media (min-width: 768px){
     height: 416px;
     }
-        @media (min-width: 1200px) {
+        @media (min-width: 1200px){
             height: 664px;
         }
 
@@ -35,22 +36,53 @@
         right: 200px;
     }
     @media (min-width: 1200px) {
-        right: 90px;
+        right: 60px;
     }
+}
+.hero-header {
+    position: relative;
+        right: 30px;
+        top: 105px;
+        z-index: 5;
+        width: 218px;
+        height: 106px;
+        @media (min-width: 425px) {
+                right: 80px;
+            }
+        text-align: left;
+        @media (min-width: 768px) {
+            width: 162px;
+            height: 80px;
+            right: 280px;
+            top: 10px;
+        }
+        @media (min-width: 1024px) {
+                    right: 400px;
+                }
+        @media (min-width: 1200px) {
+            width: 277px;
+            height: 137px;
+            right: 420px;
+        }
+                @media (min-width: 1448px) {
+                    right: 520px;
+                }
 }
 .hero-ice-cream {
     position: relative;
-    right: 240px;
-    bottom: 80px;
-    font-size: 26px;
+    left: 40px;
+    bottom: 28px;
     z-index: 1;
     width: 171px;
     height: 410px;
-
-    // margin-left: auto;
+    @media (min-width: 425px) {
+            left: -20px;
+        }
     @media (min-width: 768px) {
         width: 143px;
         height: 336px;
+        left: -180px;
+        bottom: 30px;
     }
 
     @media (min-width: 1200px) {
@@ -58,6 +90,23 @@
         height: 557px;
     }
 }
+.hero-prod-made {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 125px;
+    right: 30px;
+    @media (min-width: 768px) {
+            top: 30px;
+            right: 280px;
+        }
+    
+        @media (min-width: 1200px) {
+            width: 138px;
+            height: 140px;
+        }
+}
+
 .hero-class-list {
     display: flex;
     flex-direction: row;
@@ -166,37 +215,50 @@ h1 span {
 }
 
 .hero-products {
-    width: 107px;
-    height: 40px;
+    width: 61.2px;
+    height: 24px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #D41443;
     border: none;
-
     color: #FFF;
     text-align: center;
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal;  
+    @media (min-width: 1200px) {
+        width: 107px;
+        height: 40px;
+        font-size: 14px;
+    }
 }
 
 .hero-howitsmade {
-    width: 138px;
-    height: 40px;
+    width: 82.8px;
+    height: 24px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
     border: none;
-
     color: #D41443;
     text-align: center;
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    // @media (min-width: 768px) {
+    //         width: 82.8px;
+    //             height: 24px;
+    //     }
+    
+        @media (min-width: 1200px) {
+            width: 138px;
+            height: 40px;
+            font-size: 14px;
+        }
 }
 
 .hero-number {
@@ -248,17 +310,19 @@ h1 span {
     bottom: 20%;
     padding: 0 37px 0;
     z-index: 0;
-
+    
 }
 
 .hero-milk {
     position: absolute;
     bottom: 30%;
+    display: none;
 }
 
 .hero-scoop {
     position: absolute;
     left: 20%;
+    display: none;
 }
 
 
@@ -307,17 +371,17 @@ h1 span {
     height: 344px;
     flex-shrink: 0;
     position: absolute;
-    bottom: 170px;
-    // top: 50px; 
-    left: 28;
+    bottom: 100px;
+    left: 28px;
     z-index: 1;
     overflow: hidden;
      
     @media screen and (min-width: 768px) {
             width: 335px;
             height: 333px;
-            // position: relative;
-            // top: 150px;
+            left: 200px;
+            bottom: 80px;
+             
              
         }
     
@@ -343,4 +407,7 @@ h1 span {
 .hero-howitsmade:hover {
     background: #ECEBEB;
     cursor: pointer;
+}
+.hero-arrow {
+    display: none;
 }
