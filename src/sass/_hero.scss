@@ -1,6 +1,4 @@
 .hero {
-    
-    flex-shrink: 0;
     margin: 0;
     background-color: #FFB8CA;
     flex-shrink: 0;
@@ -8,6 +6,12 @@
     // z-index: 1;
     width: auto;
     height: 502px;
+    @media (min-width: 768px){
+    height: 416px;
+    }
+        @media (min-width: 1200px) {
+            height: 664px;
+        }
 
 }
 .hero-class {
@@ -17,7 +21,43 @@
     position: relative;
     z-index: 3;
 }
+.hero-logo {
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+    @media (min-width: 425px){
+        right: 50px;
+    }
+    @media (min-width: 768px) {
+        right: 140px;
+    }
+    @media (min-width: 1024px) {
+        right: 200px;
+    }
+    @media (min-width: 1200px) {
+        right: 90px;
+    }
+}
+.hero-ice-cream {
+    position: relative;
+    right: 240px;
+    bottom: 80px;
+    font-size: 26px;
+    z-index: 1;
+    width: 171px;
+    height: 410px;
 
+    // margin-left: auto;
+    @media (min-width: 768px) {
+        width: 143px;
+        height: 336px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 236px;
+        height: 557px;
+    }
+}
 .hero-class-list {
     display: flex;
     flex-direction: row;
@@ -72,23 +112,57 @@
 h1 {
     color: #FFF;
     font-family: Titan One;
-    font-size: 38px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1.52px;
+    letter-spacing: 1.04px;
     text-transform: uppercase;
+    // @media (min-width: 425px) {
+    //     font-size: 22px;
+    //     letter-spacing: 0.88px;
+    //     }
+    
+        @media (min-width: 768px) {
+        font-size: 22px;
+            letter-spacing: 0.88px;
+        }
+    
+        // @media (min-width: 1024px) {
+        //     right: 200px;
+        // }
+    
+        @media (min-width: 1200px) {
+            font-size: 38px;
+            letter-spacing: 1.52px;
+        }
 }
 
 h1 span {
     color: #D41443;
     font-family: Titan One;
-    font-size: 58px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 90.5%;
-    letter-spacing: 2.32px;
+    line-height: 96.5%;
     text-transform: uppercase;
+    // @media (min-width: 425px) {
+    //     font-size: 48px;
+    //     }
+    
+        @media (min-width: 768px) {
+        font-size: 34px;
+            line-height: 90.5%;
+            letter-spacing: 1.36px;
+        }
+    
+        // @media (min-width: 1024px) {
+        //     right: 200px;
+        // }
+    
+        @media (min-width: 1200px) {
+            font-size: 58px;
+        }
 }
 
 .hero-products {
@@ -187,24 +261,7 @@ h1 span {
     left: 20%;
 }
 
-.hero-ice-cream {
-    position: relative;
-    right: 240px;
-    bottom: 80px;
-    // bottom: 115px;
-    z-index: 1;
-    width: 171px;
-    height: 410px;
-    // margin-left: auto;
-    @media (min-width: 768px){
-        width: 143px;
-            height: 336px;
-    }
-        @media (min-width: 768px) {
-            width: 236px;
-                height: 557px;
-        }
-}
+
 
 .hero-soo-tasty {
     position: absolute;
