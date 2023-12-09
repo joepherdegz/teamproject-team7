@@ -24,10 +24,10 @@
     gap: -10px;
     margin: 0 10px;
     /* grid-template-rows: 1fr 1fr 1fr; */
-    @media screen and (min-width:768px){
+    @media (min-width:768px){
         flex-direction: row;
         display: flex;
-        gap: 50px;
+        margin: 0 20px;
     }
 }
 
@@ -108,11 +108,16 @@
     font-weight: 400;
     width: 368px;
     height: 34px;
+    /* margin-top: 10px; */
     padding-top: 5px;
     padding-bottom: 5px;
-    
-    @media screen and (min-width: 1200px) {
+    @media (min-width: 768px) {
+            
+            margin-top: -30px;
+        }
+    @media (min-width: 1200px) {
             font-size: 30px;
+            margin-top: 20px;
         }
 }
 
@@ -150,9 +155,6 @@
 }
 
 .product1-bg {
-    /* display: flex;
-    justify-content: last baseline;
-    align-items: center; */
     text-align: center;
     background-color: var(--bgpink);
     border-radius: 24px;
@@ -172,6 +174,7 @@
 }
 
 .product2-bg {
+    text-align: center;
     background-color: var(--bgbrown);
     border-radius: 24px;
     width: 280px;
@@ -190,6 +193,7 @@
 }
 
 .product3-bg {
+    text-align: center;
     background-color: var(--bggreen);
     border-radius: 24px;
     width: 280px;
@@ -225,4 +229,8 @@
     @media (min-width: 768px){
         /* top: 50px; */
     }
+}
+.prod-ellips {
+    margin: 20px 0;
+     
 }
