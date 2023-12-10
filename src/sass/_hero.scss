@@ -144,7 +144,7 @@
 .hero-class-list {
     
     padding-right: 80px; 
-    flex-direction: row;
+    // flex-direction: row;
     justify-content: center;
     z-index: 1;
     gap: 35px;
@@ -152,8 +152,7 @@
     display: none;
     @media (min-width: 1200px){
         display: flex;
-        flex-direction: column;
-        position: relative;
+         
     }
 }
 
@@ -649,7 +648,7 @@ h1 span {
     
     
 }
-.hero-list {
+.mob-hero-list {
     position: absolute;
     top: 50%;
     left: 10px;
