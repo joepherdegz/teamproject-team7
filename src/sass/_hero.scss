@@ -3,7 +3,7 @@
     position: relative; 
     background-color: #FFB8CA;
     flex-shrink: 0;
-     
+    overflow: hidden;
     // z-index: 1;
     width: auto;
     height: 502px;
@@ -118,6 +118,7 @@
         }
 }
 .ellipse-3 {
+    overflow: hidden;
     width: 330px;
     height: 344px;
     flex-shrink: 0;
@@ -125,7 +126,6 @@
     bottom: 50px;
     left: 15%;
     z-index: 1;
-    overflow: hidden;
 
     @media screen and (min-width: 768px) {
         width: 335px;
