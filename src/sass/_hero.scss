@@ -142,6 +142,7 @@
     }
 }
 .hero-class-list {
+    
     padding-right: 80px; 
     flex-direction: row;
     justify-content: center;
@@ -151,6 +152,8 @@
     display: none;
     @media (min-width: 1200px){
         display: flex;
+        flex-direction: column;
+        position: relative;
     }
 }
 
@@ -516,20 +519,7 @@ h1 span {
     
         }
 }
-// .hero-burger {
-//     display: flex;
-//     position: absolute;
-//     right: 7%;
-//     top: 50%;
-//     @media (min-width: 768px) {
-//         right: 25%;
-//         top: 80%;
-//     }
-//         @media (min-width: 1200px) {
-//             display: none;
-//         }
-// }
-
+// BURGER MENU STYLING
 .js-open-menu {
     display: flex;
     border: none;
@@ -546,6 +536,7 @@ h1 span {
         display: none;
     }
 }
+
 .js-menu-container {
     display: block;
     position: fixed;
@@ -564,12 +555,20 @@ h1 span {
 }
 .js-menu-close {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 20px;
+    // left: 285px;
+    right: -290px;
     width: 24px;
     height: 24px;
     padding: 0;
     fill: #fff;
+    @media (min-width: 425px) {
+        right: -395px;
+    }
+         @media (min-width: 768px) {
+             right: -690px;
+              
+         }
 }
 .mob-main-nav {
     display: flex;
@@ -609,9 +608,55 @@ h1 span {
         width: 209px;
             height: 44px;
             flex-shrink: 0;
-            margin: 50px 50px;
-
+            margin: 50px 60px;
+            @media (min-width: 425px ){
+                margin: 50px 0 50px 130px;  
+            }
+            @media (min-width: 768px) {
+                margin: 50px 0 50px 280px;
+            
+            }
 }
 .mob-arrow {
     padding-left: 25px;
 }
+.hero-rectangle {
+        stroke: #E18298;
+        width: 425px;
+        position: relative;
+        right: 40px;  
+         
+    @media (min-width: 425px) {
+        width: 768px;
+    }
+        // @media (min-width: 768px) {
+        //     width: 1024px;
+        //     // height: 100px;
+        // }
+             
+}
+.hero-rectangle-container {
+    position: relative;
+    margin-top: -28px;
+    @media (min-width: 425px) {
+        margin-top: -30px;
+        }
+
+}
+.mob-hero-class-list {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+.hero-list {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);    
+}
+.js-close-menu {
+    position: absolute;
+    top: -10px;
+}
+ 
