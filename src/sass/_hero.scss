@@ -141,9 +141,10 @@
     }
 }
 .hero-class-list {
-     
+    padding-right: 80px; 
     flex-direction: row;
     justify-content: center;
+     
     gap: 35px;
     list-style: none;
     display: none;
@@ -164,16 +165,16 @@
     font-weight: 700;
     line-height: normal;
 }
+.hero-button {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
 
 
-
-.hero-buynow {
-    
-    // flex-direction: row;
-    // justify-content: center;
-    // flex-shrink: 0;
+.hero-button {
     color: #D41443;
-    text-align: center;
+    padding: 2px 28px;
     font-family: DM Sans;
     font-size: 16px;
     font-style: normal;
@@ -182,11 +183,18 @@
     border-radius: 22px;
     background: #FFF;
     border: 0;
+    gap: -5px;
     display: none;
-    @media (min-width: 1200px){
-        width: 159px;
-        height: 44px;
-    }
+    @media (min-width: 768px) {
+        position: absolute;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 159px;
+            height: 44px;
+            right: 2%;
+        }
+     
 }
 
 
@@ -308,7 +316,7 @@ h1 span {
         position: absolute;
         // left: 100%;
         right: 5%;
-        top: 10%;
+        top: 30%;
     }
 }
 
@@ -316,12 +324,15 @@ h1 span {
     color: #D41443;
     text-align: right;
     font-family: Titan One;
-    font-size: 46px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.84px;
     text-transform: uppercase;
+    @media (min-width: 1200px) {
+        font-size: 46px;
+    }
 }
 
  
@@ -420,28 +431,44 @@ h1 span {
 
 .ellipse-1 {
     position: relative;
-    top: 43;
-    left: 15;
+    top: 20px;
+    left: 8px;
     z-index: 3;
+    width: 16px;
+        height: 16px;
 }
 
 .hero-cafes {
     position: relative;
     z-index: 4;
+    font-size: 8px;
+    @media (min-width: 1200px) {
+        font-size: 14px;
+    }
 }
-
+// .hero-cafes span{
+//     font-size: 28px;
+// }
 .ellipse-2 {
     position: relative;
-    top: 43;
-    left: 15;
+    top: 20px;
+    left: 8px;
     z-index: 3;
+    width: 16px;
+        height: 16px;
 }
 
 .hero-strucks {
     position: relative;
     z-index: 4;
+    font-size: 8px;
+    @media (min-width: 1200px) {
+            font-size: 14px;
+        }
 }
- 
+// .hero-strucks span {
+//     font-size: 28px;
+// }
 
 
 
@@ -482,5 +509,9 @@ h1 span {
     top: 50%;
     @media (min-width: 768px) {
         right: 25%;
+        top: 80%;
     }
+        @media (min-width: 1200px) {
+            display: none;
+        }
 }
