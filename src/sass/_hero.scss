@@ -4,7 +4,7 @@
     background-color: #FFB8CA;
     flex-shrink: 0;
     overflow: hidden;
-    // z-index: 1;
+    z-index: 1;
     width: auto;
     height: 502px;
     @media (min-width: 768px){
@@ -62,18 +62,19 @@
             left: -160%;
             top: 50px;
         }
-        // @media (min-width: 1024px) {
-        //             right: 400px;
-        //         }
+        @media (min-width: 1024px) {
+            left: -220%;
+            top: 60px;
+                }
         @media (min-width: 1200px) {
             width: 277px;
             height: 137px;
             left: -145%;
             top: 60px;
         }
-                // @media (min-width: 1448px) {
-                //     right: 520px;
-                // }
+                @media (min-width: 1448px) {
+                    left: -180%;
+                }
 }
 .hero-ice-cream {
     position: relative;
@@ -98,6 +99,7 @@
         top: -95px;
         left: -10%;
     }
+         
 }
 .hero-prod-made {
     display: flex;
@@ -109,6 +111,10 @@
             top: 70px;
             right: 160%;
         }
+                @media (min-width: 1024px) {
+                    left: -220%;
+                    top: 90px;
+                }
     
         @media (min-width: 1200px) {
             width: 138px;
@@ -116,6 +122,10 @@
             left: -170%;
             top: 90px;
         }
+                @media (min-width: 1448px) {
+                    left: -205%;
+                    top: 90px;
+                }
 }
 .ellipse-3 {
     overflow: hidden;
@@ -167,7 +177,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    // z-index: 1;
+     
 }
 .hero-button {
     display: block;
@@ -212,19 +222,14 @@ h1 {
     line-height: normal;
     letter-spacing: 1.04px;
     text-transform: uppercase;
-    // @media (min-width: 425px) {
-    //     font-size: 22px;
-    //     letter-spacing: 0.88px;
-    //     }
+     
     
         @media (min-width: 768px) {
         font-size: 22px;
             letter-spacing: 0.88px;
         }
     
-        // @media (min-width: 1024px) {
-        //     right: 200px;
-        // }
+         
     
         @media (min-width: 1200px) {
             font-size: 38px;
@@ -348,9 +353,9 @@ h1 span {
 }
 
 .hero2 {
-    // padding: 0 37px 0;
-    z-index: 1;
-    // gap: -100px;
+     
+    z-index: -1;
+     
 
 }
 
@@ -358,7 +363,7 @@ h1 span {
     position: relative;
     bottom: 20%;
     padding: 0 37px 0;
-    z-index: 0;
+    z-index: -2;
     
 }
 
@@ -451,7 +456,7 @@ h1 span {
 
 .hero-cafes {
     position: relative;
-    z-index: 4;
+    z-index: 3;
     font-size: 8px;
     @media (min-width: 1200px) {
         font-size: 14px;
@@ -474,9 +479,9 @@ h1 span {
             }
 }
 
-.hero-strucks {
+.hero-trucks {
     position: relative;
-    z-index: 4;
+    z-index: 3;
     font-size: 8px;
     @media (min-width: 1200px) {
             font-size: 14px;
@@ -520,6 +525,7 @@ h1 span {
 }
 // BURGER MENU STYLING
 .js-open-menu {
+    z-index: 2;
     display: flex;
     border: none;
     background: none;
@@ -544,7 +550,7 @@ h1 span {
     // padding: 80px 35px 40px 40px;
     width: 100vw;
     height: 100vh;
-    z-index: 200;
+    z-index: 20;
     background-color: #E17992;
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -579,12 +585,12 @@ h1 span {
     display: block;
     list-style: none;
     margin-left: 0;
+    list-style: none;
       
 }
-.mob-hero-class-list li {
+.mob-hero-class-list a {
     padding-top: 15px;
     padding-bottom: 5px;
-    
     width: 767px;
     font-size: 14px;
         font-style: normal;
@@ -635,20 +641,30 @@ h1 span {
              
 }
 .hero-rectangle-container {
+    
     position: relative;
-    margin-top: -28px;
+    margin-top: -7px;
     @media (min-width: 425px) {
-        margin-top: -30px;
+        margin-top: -9.5px;
         }
 
 }
 .mob-hero-class-list {
     position: relative;
     display: inline-block;
+    text-decoration: none;
     
     
 }
-.mob-hero-list {
+.mob-hero-list a {
+    text-decoration: none;
+        color: #FFF;
+        font-size: 14px;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     position: absolute;
     top: 50%;
     left: 10px;
