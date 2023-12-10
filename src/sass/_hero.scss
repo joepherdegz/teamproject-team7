@@ -45,6 +45,7 @@
         // }
 }
 .hero-header {
+    display: block;
     position: relative;
         right: 30px;
         top: 105px;
@@ -86,7 +87,7 @@
         }
     @media (min-width: 768px) {
         width: 143px;
-        height: 336px;
+        height: 333px;
         left: -10%;
         bottom: -8%;
     }
@@ -117,7 +118,7 @@
         }
 }
 .ellipse-3 {
-    width: 346px;
+    width: 330px;
     height: 344px;
     flex-shrink: 0;
     position: absolute;
