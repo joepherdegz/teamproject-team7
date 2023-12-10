@@ -146,7 +146,7 @@
     padding-right: 80px; 
     // flex-direction: row;
     justify-content: center;
-    z-index: 1;
+    // z-index: 1;
     gap: 35px;
     list-style: none;
     display: none;
@@ -167,7 +167,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    z-index: -1;
+    // z-index: 1;
 }
 .hero-button {
     display: block;
@@ -343,7 +343,7 @@ h1 span {
 
 .hero1{
     padding: 37px 37px 0;
-    // z-index: 1;
+    z-index: 1;
 
 }
 
