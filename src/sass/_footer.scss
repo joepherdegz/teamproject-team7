@@ -1,6 +1,6 @@
 .footer-contents {
     background: #FFF5F6;
-    margin: 1em;
+    // margin: em;
 }
 .combi2 {
      background: #FFF5F6;
@@ -17,7 +17,7 @@
     @media (min-width: 768px){
         display: flex;
         justify-content: space-between;
-        gap: 100px;
+        gap: 50px;
     }
 }
 .footer-text1 {

@@ -58,8 +58,8 @@
         @media (min-width: 768px) {
             width: 162px;
             height: 80px;
-            right: 160%;
-            top: 10px;
+            left: -160%;
+            top: 50px;
         }
         // @media (min-width: 1024px) {
         //             right: 400px;
@@ -67,7 +67,7 @@
         @media (min-width: 1200px) {
             width: 277px;
             height: 137px;
-            right: 150%;
+            left: -145%;
             top: 60px;
         }
                 // @media (min-width: 1448px) {
@@ -87,15 +87,15 @@
     @media (min-width: 768px) {
         width: 143px;
         height: 336px;
-        left: -180px;
-        bottom: 30px;
+        left: -10%;
+        bottom: -8%;
     }
 
     @media (min-width: 1200px) {
         width: 236px;
         height: 557px;
-        bottom: 128px;
-        left: -250px;
+        top: -95px;
+        left: -10%;
     }
 }
 .hero-prod-made {
@@ -105,15 +105,15 @@
     top: 125px;
     right: 30px;
     @media (min-width: 768px) {
-            top: 30px;
+            top: 70px;
             right: 160%;
         }
     
         @media (min-width: 1200px) {
             width: 138px;
             height: 140px;
-            right: 480px;
-            top: 80px;
+            left: -170%;
+            top: 90px;
         }
 }
 .ellipse-3 {
@@ -129,14 +129,14 @@
     @media screen and (min-width: 768px) {
         width: 335px;
         height: 333px;
-        left: 200px;
-        bottom: 80px;
+        right: 1%;
+        bottom: 40px;
     }
 
     @media screen and (min-width: 1200px) {
         width: 534px;
         height: 534px;
-        left: 620px;
+        right: -15%;
         bottom: 200px
     }
 }
@@ -149,7 +149,6 @@
     display: none;
     @media (min-width: 1200px){
         display: flex;
-        margin-left: -100px;
     }
 }
 
@@ -304,6 +303,13 @@ h1 span {
     font-weight: 400;
     line-height: normal;
     display: none;
+    @media (min-width: 768px) {
+        display: block;
+        position: absolute;
+        // left: 100%;
+        right: 5%;
+        top: 10%;
+    }
 }
 
 .hero-number span {
@@ -318,14 +324,7 @@ h1 span {
     text-transform: uppercase;
 }
 
-.hero-scoop {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-}
+ 
 
 .hero1{
     padding: 37px 37px 0;
@@ -334,8 +333,9 @@ h1 span {
 }
 
 .hero2 {
-    padding: 0 37px 0;
+    // padding: 0 37px 0;
     z-index: 1;
+    // gap: -100px;
 
 }
 
@@ -351,25 +351,39 @@ h1 span {
     position: absolute;
     display: none;
     @media (min-width: 768px) {
+            width: 152px;
+                height: 154px;
             display: flex;
-            left: 5%;
+            left: 7%;
+            bottom: -5%;
         }
     @media (min-width: 1200px){
-        left: 5%;
+        left: 7%;
+        bottom: 28%;
     }
 }
 
 .hero-scoop {
     position: absolute;
-    left: 20%;
+    z-index: 2;
     display: none;
+    color: #FFF;
+    font-family: DM Sans;
+    
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
     @media (min-width: 768px){
         display: flex;
-        left: 22%;
+        font-size: 8px;
+        left: 25%;
+        bottom: 12%;
     }
         @media (min-width: 1200px) {
                 display: flex;
-                left: 22%;
+                font-size: 14px;
+                left: 20%;
+                bottom: 38%;
     }
 }
 
@@ -385,17 +399,19 @@ h1 span {
         display: flex;
         width: 190px;
             height: 150px;
+            right: 5%;
+            bottom: -7%;
              
     }
-        @media (min-width: 1024px) {
-            right: 180px;
-            width: 190px;
-            height: 150px;
+        // @media (min-width: 1024px) {
+        //     right: 180px;
+        //     width: 190px;
+        //     height: 150px;
              
-        }
+        // }
         @media (min-width: 1200px) {
-            bottom: 128px;
-            right: 300px;
+            bottom: 95px;
+            right: 2%;
             width: 304px;
             height: 241px;
              
@@ -447,8 +463,24 @@ h1 span {
     @media (min-width: 768px) {
         display: flex;
         position: absolute;
-        left: 30%;
-        bottom: 20%;
+        left: 25%;
+        bottom: 5%;
         
+    }
+        @media (min-width: 1200px) {
+            display: flex;
+            position: absolute;
+            left: 20%;
+            bottom: 35%;
+    
+        }
+}
+.hero-burger {
+    display: flex;
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    @media (min-width: 768px) {
+        right: 25%;
     }
 }
