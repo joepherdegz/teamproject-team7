@@ -560,27 +560,32 @@ h1 span {
 .js-menu-container.is-open {
     transform: translateX(0);
 }
-.js-menu-close {
-    position: absolute;
-    top: 20px;
-    // left: 285px;
-    right: -290px;
-    width: 24px;
-    height: 24px;
-    padding: 0;
-    fill: #fff;
-    @media (min-width: 425px) {
-        right: -395px;
-    }
-         @media (min-width: 768px) {
-             right: -690px;
+// .js-menu-close {
+//     position: absolute;
+//     top: 20px;
+    
+//     left: 2550%;
+//     // right: -2510%;
+//     width: 24px;
+//     height: 24px;
+//     padding: 0;
+//     fill: #fff;
+//     // @media (min-width: 375px) {
+//     //         right: -350px;
+//     //     }
+//     // @media (min-width: 425px) {
+//     //     right: -395px;
+//     // }
+//         //  @media (min-width: 768px) {
+//         //      right: -690px;
               
-         }
-}
+//         //  }
+// }
 .mob-main-nav {
     display: flex;
     flex-direction: column;
-    
+    // justify-content: center;
+    align-items: center;
     
 }
 .mob-hero-class-list {
@@ -588,6 +593,10 @@ h1 span {
     list-style: none;
     margin-left: 0;
     list-style: none;
+    
+    // @media (min-width: 425px) {
+    //     margin-top: 140px;
+    // }
       
 }
 .mob-hero-class-list a {
@@ -616,13 +625,8 @@ h1 span {
             height: 44px;
             flex-shrink: 0;
             margin: 50px 60px;
-            @media (min-width: 425px ){
-                margin: 50px 0 50px 130px;  
-            }
-            @media (min-width: 768px) {
-                margin: 50px 0 50px 280px;
-            
-            }
+             
+             
 }
 .mob-arrow {
     padding-left: 25px;
@@ -651,13 +655,13 @@ h1 span {
         }
 
 }
-.mob-hero-class-list {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
+// .mob-hero-class-list {
+//     position: relative;
+//     display: inline-block;
+//     text-decoration: none;
     
     
-}
+// }
 .mob-hero-list a {
     text-decoration: none;
         color: #FFF;
@@ -673,7 +677,19 @@ h1 span {
     transform: translateY(-50%);    
 }
 .js-close-menu {
+    width: 24px;
+    height: 24px;
+    // background-color: #E17992;
+    fill: #FFF;
+    
+}
+.mob-close {
+    margin-top: 20px;
+    background-color: #E17992;
+    border: none;
+    display: flex;
     position: absolute;
-    top: -10px;
+    right: 5%;
+    
 }
  
