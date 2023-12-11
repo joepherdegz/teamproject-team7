@@ -560,31 +560,10 @@ h1 span {
 .js-menu-container.is-open {
     transform: translateX(0);
 }
-// .js-menu-close {
-//     position: absolute;
-//     top: 20px;
-    
-//     left: 2550%;
-//     // right: -2510%;
-//     width: 24px;
-//     height: 24px;
-//     padding: 0;
-//     fill: #fff;
-//     // @media (min-width: 375px) {
-//     //         right: -350px;
-//     //     }
-//     // @media (min-width: 425px) {
-//     //     right: -395px;
-//     // }
-//         //  @media (min-width: 768px) {
-//         //      right: -690px;
-              
-//         //  }
-// }
+ 
 .mob-main-nav {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     
 }
@@ -592,13 +571,9 @@ h1 span {
     display: block;
     list-style: none;
     margin-left: 0;
-    list-style: none;
-    
-    // @media (min-width: 425px) {
-    //     margin-top: 140px;
-    // }
-      
+    list-style: none;      
 }
+
 .mob-hero-class-list a {
     padding-top: 15px;
     padding-bottom: 5px;
@@ -622,11 +597,9 @@ h1 span {
         border: 0;
         gap: 15px;
         width: 209px;
-            height: 44px;
-            flex-shrink: 0;
-            margin: 50px 60px;
-             
-             
+        height: 44px;
+        flex-shrink: 0;
+        margin: 50px 60px;       
 }
 .mob-arrow {
     padding-left: 25px;
@@ -639,29 +612,16 @@ h1 span {
          
     @media (min-width: 425px) {
         width: 768px;
-    }
-        // @media (min-width: 768px) {
-        //     width: 1024px;
-        //     // height: 100px;
-        // }
-             
+    }             
 }
 .hero-rectangle-container {
-    
     position: relative;
     margin-top: -7px;
     @media (min-width: 425px) {
         margin-top: -9.5px;
-        }
-
+    }
 }
-// .mob-hero-class-list {
-//     position: relative;
-//     display: inline-block;
-//     text-decoration: none;
-    
-    
-// }
+
 .mob-hero-list a {
     text-decoration: none;
         color: #FFF;
@@ -679,7 +639,6 @@ h1 span {
 .js-close-menu {
     width: 24px;
     height: 24px;
-    // background-color: #E17992;
     fill: #FFF;
     
 }
@@ -687,7 +646,7 @@ h1 span {
     margin-top: 20px;
     background-color: #E17992;
     border: none;
-    display: flex;
+    // display: flex;
     position: absolute;
     right: 5%;
     
