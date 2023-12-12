@@ -5,12 +5,12 @@
     --bgbrown: #F0D1A5;
     --bggreen: #C2E297;
     --white: #FFF;
-    margin-top: 80px;
+    margin-top: 70px;
 }
   
-.product-header{
+/* .product-header{
     margin-bottom: -10px;
-}
+} */
 
 .product-list {
     font-family: 'Titan One', sans-serif;
@@ -20,19 +20,27 @@
     display: grid;
     flex-direction: column;
     justify-content: center;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     @media (min-width:768px){
         flex-direction: row;
         display: flex;
         margin: 0 20px;
     }
 }
-
+.multicolumn {
+  margin-top: 40px;
+@media (min-width: 768px) {
+        margin-top: 80px;
+    }
+        @media (min-width: 1200px) {
+            margin-top: 70px;
+        }
+}
 
 /*PRODUCTS STYLING*/
 .prod-pic {
     position: relative;
-    top: 140px;
+    /* top: 140px; */
     width: 280px;
     height: 280px;
     mix-blend-mode: multiply;
@@ -40,13 +48,13 @@
         width: 224px;
         height: 224px; 
         position: relative;
-        top: 90px;
+        /* top: 10px; */
     }
      @media screen and (min-width: 1200px) {
         width: 368px;
         height: 394px;
         position: relative;
-        top: 150px;
+        /* top: 150px; */
     }    
 }
 
@@ -60,7 +68,7 @@
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     @media screen and (minwidth: 768px) {
         font-size: 26px;
     }
@@ -153,13 +161,17 @@
     flex-shrink: 0;
     mix-blend-mode: darken;
     padding-top: 150px;
+    margin-top: -140px;
     @media (min-width: 768px){
         width: 224px;
         height: 473px;
+        margin-top:-90px;
     }
     @media (min-width: 1200px) {
         width: 368px;
         height: 535px;
+        margin-top: -140px;
+
     }
 }
 
@@ -172,13 +184,16 @@
     flex-shrink: 0;
     mix-blend-mode: darken;
     padding-top: 150px;
+    margin-top: -140px;
     @media (min-width: 768px) {
         width: 224px;
         height: 473px;
+        margin-top: -90px;
     }
     @media (min-width: 1200px) {
         width: 368px;
         height: 535px;
+        margin-top: -140px;
     }
 }
 
@@ -191,13 +206,16 @@
     flex-shrink: 0;
     mix-blend-mode: darken;
     padding-top: 150px;
+    margin-top: -140px;
     @media (min-width: 768px) {
         width: 224px;
         height: 473px;
+        margin-top: -90px;
         }
     @media (min-width: 1200px) {
          width: 368px;
         height: 535px;
+        margin-top: -140px;
         }
 }
 .product-arrow-icon {
