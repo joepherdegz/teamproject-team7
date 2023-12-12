@@ -1,22 +1,16 @@
-// @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
-
 .customer-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-     
-    
     @media screen and (min-width: 1200px) {
-        margin-top: 0;
-         
+        margin-top: 0;  
     }
 }
 
 .customer-slider {
     width: 100%;
     max-width: 90%;
-    // margin: 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -38,7 +32,6 @@
     display: block;
 }
 
-
 .slide {
     display: flex;
     justify-content: center;
@@ -54,9 +47,8 @@
     scroll-snap-align: center;
     padding-top: 0;
     @media screen and (min-width: 768px) {
-            height: 450px;
-    
-        }
+        height: 450px;
+    }
 }
 
 // Style for the background of the customer comment
@@ -91,10 +83,8 @@
     text-decoration: none;
     gap: 18px;
     margin-bottom: 140px;
-     
     width: 72px;
     height: 12px;
-    
 }
 
 .customer-slider-nav-button{
@@ -107,7 +97,6 @@
 }
 
 
-
 // Font of customers' name & testimonials
 .customer-details h2 {
     font-family:'DM Sans';
@@ -115,8 +104,7 @@
     margin-top: 20px;
     @media (min-width: 768px) {
         margin-bottom: -50px;
-    
-        }
+    }
 }
 
 .customer-comment p {

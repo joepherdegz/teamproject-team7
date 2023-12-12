@@ -1,10 +1,10 @@
 .footer-contents {
     background: #FFF5F6;
-    // margin: em;
+     
 }
 .combi2 {
-     background: #FFF5F6;
-     margin-top: 210px;
+    background: #FFF5F6;
+    margin-top: 210px;
       
  }
 .footer-top{
@@ -35,11 +35,11 @@
         height: 57px;
         letter-spacing: 1.04px;
     }
-        @media (min-width: 1200px) {
-            font-size: 30px;
-            width: 472px;
-            height: 34px;
-            letter-spacing: 1.2px;
+    @media (min-width: 1200px) {
+        font-size: 30px;
+        width: 472px;
+        height: 34px;
+        letter-spacing: 1.2px;
         }
 }
 .footer-text2 {
@@ -71,19 +71,16 @@
 }
 .socials-link{
     padding: 20px;
-    // display: inline-block;
 }
  
 .footer-con-tel{
  font-family: DM sans;
-//  padding-top: 20px;
  padding-left: 45px;
  width: 300px;
  height: 22px;
  font-size: 12px;
  font-weight: 700;
 line-height: 186%;
-// text-align: right;
 }
 .footer-contact-link{
     color: #D41443;

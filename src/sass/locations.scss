@@ -8,15 +8,13 @@
     position: relative;
     top: -180px;
     margin-bottom: -100px;
-     
     @media (min-width: 768px) {
-            top: -120px;
-            margin-bottom: 80px;
-        }
-    
-        @media (min-width: 1200px) {
-            top: -120px;
-        }
+        top: -120px;
+        margin-bottom: 80px;
+    }
+    @media (min-width: 1200px) {
+        top: -120px;
+    }
         
 }
 .locations-cards{
@@ -33,11 +31,9 @@
 .location-container {
     border-radius: 24px;
     background-color: #FFF;
-    // padding: 10px;
     font-family: 'DM Sans';
     font-weight: 500;
     display: flex;
-    // text-align: center;
     width: 280px;
     height: 412px;
     border: 1px;
@@ -47,20 +43,18 @@
     box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
     @media (min-width: 768px){
         width: 224px;
-            height: 500px;                 
+        height: 500px;                 
     }
-        @media (min-width: 1200px) {
-            width: 360px;
-                height: 480px;
-        }
+    @media (min-width: 1200px) {
+        width: 360px;
+        height: 480px;
+    }
 }
 
 .cat-type-container {
     border-radius: 6px;
     display: flex;
     margin-bottom: 20px;
-    
-    
 }
 
 .location-data-container {
@@ -78,40 +72,39 @@
     width: 80px;
     height: 16px;
     justify-content: center;
-        align-items: center;
+    align-items: center;
     @media (min-width: 768px) {
-            position: relative;
-                right: 40px;
-        }
-        @media (min-width: 1200px) {
-            position: relative;
-            right: 105px;
-        }
+        position: relative;
+        right: 40px;
+    }
+    @media (min-width: 1200px) {
+        position: relative;
+        right: 105px;
+    }
 }
 
 .cat-type-container-foodtruck {
     background-color: #C2E297;
     position: relative;
-        right: 45px;
-        width: 130px;
-        height: 20px;
-        font-size: 12px;
-        justify-content: center;
-        align-items: center;
-        @media (min-width: 768px) {
-            position: relative;
-            right: 15px;
-        }
+    right: 45px;
+    width: 130px;
+    height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 768px) {
+        position: relative;
+        right: 15px;
+    }
     
-        @media (min-width: 1200px) {
-            position: relative;
-            right: 80px;
-        }
+    @media (min-width: 1200px) {
+        position: relative;
+        right: 80px;
+    }
 }
 
 .cat-type-text {
     color: white;
-    // font-size: 12px;
     margin: 8px 15px;
 }
 
@@ -123,13 +116,11 @@
 .cat-location-desc {
     margin-bottom: 10px;
     color: #907E82;
-    
-     
     font-style: normal;
-        font-weight: 500;
-        line-height: 18px;
-        /* 150% */
-        letter-spacing: 0.48px;
+    font-weight: 500;
+    line-height: 18px;
+    /* 150% */
+    letter-spacing: 0.48px;
 }
 
 
@@ -140,16 +131,15 @@
 .location-time {
     margin-bottom: 20px;
     color: #FFA5BA;
-    ;
 }
 .location-cat-separator{
     width: 216px;
     @media (min-width: 768px) {
         width: 160px;
-        }
-                @media (min-width: 1200px) {
-                    width: 288px;
-                }
+    }
+    @media (min-width: 1200px) {
+        width: 288px;
+    }
 }
 .location-telnum,
 .location-email {
@@ -166,7 +156,6 @@
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-     
     gap: -20px;
     justify-content: center;
     @media (min-width: 768px){
@@ -189,16 +178,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
-    
+    border: none;  
 }
+
 .loc-arrow1{
     stroke: #FFF;
 }
+
 .loc-arrow2 {
     stroke: #D41342;
     margin-left: 20px;
 }
+
 .locations-button-design2 {
     color: #D41342;
     background-color: white;
@@ -214,17 +205,18 @@
     justify-content: center;
     align-items: center;
     border: none;
-
 }
  
 .locations-button-design1:hover {
     background-color: #e17992;
     color: white;
 }
+
 .locations-button-design2:hover {
     background-color: #e17992;
     color: white;
 }
+
 .loc-arrow:hover {
     color: #FFF;
 }

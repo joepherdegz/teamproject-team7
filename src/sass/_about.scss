@@ -13,20 +13,15 @@
   padding: 0;
   background-color: #fff5f6;
     flex-shrink: 0;
-    // height: 750px;
     max-height: 100%;
-    
     margin-top: 150px;
-  
   @media screen and (max-width: 1200px) {
-      height: 1092px;
-      max-height: 100%;
+    height: 1092px;
+    max-height: 100%;
   }
-  
-    @media screen and (max-width: 767px) {
-      height: 1564px;
-  
-    }
+  @media screen and (max-width: 767px) {
+    height: 1564px;
+  }
 }
 
 .about-trad {
@@ -84,7 +79,6 @@
 .about-title {
   display: flex;
   flex-direction: column;
-
   gap: 16px;
   margin-left: 20px;
   margin-right: 20px;
@@ -307,16 +301,12 @@
   }
     @media (min-width: 1200px) {
       padding: 0 120px 0 70px; 
-      // margin: 0 30px;
       justify-content: space-between;
     } 
 }
 .adv-list {
   display: block;
-  // text-align: left;
-  margin: 20px 20px;
-   
-   
+  margin: 20px 20px;  
 }
 .adv-img1 {
   width: 33px;
@@ -337,7 +327,6 @@
   width: 274px;
   height: 36px;
   flex-shrink: 0;
-  
   @media screen and (min-width: 768px) {
     width: 165px;
     height: 113px;
